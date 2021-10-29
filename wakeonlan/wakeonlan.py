@@ -1,7 +1,7 @@
-# A Wake on LAN program that allows you to send magic packets over the Internet
 import socket, struct
 
 #TODO This isn't working, maybe redo it.
+#TODO Make this OO
 
 class Waker():
     def makeMagicPacket(self, macAddress):

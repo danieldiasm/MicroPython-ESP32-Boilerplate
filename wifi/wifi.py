@@ -2,6 +2,7 @@ import network
 from time import sleep
 
 # TODO Make this object oriented
+# A Watcher to keep the connection alive would be helpful
 
 def connect(wifi_led, colour1=None, colour2=None):
     colour_off = (0,0,0)
